@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork3", "HomeWork3\Home
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork4", "HomeWork4\HomeWork4.vcxproj", "{D85B2C33-BF5B-4F44-98F9-BEFBAEA309BF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWork5", "HomeWork5\HomeWork5.vcxproj", "{7B18209E-DC67-4963-A168-BF31F9099539}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{D85B2C33-BF5B-4F44-98F9-BEFBAEA309BF}.Release|x64.Build.0 = Release|x64
 		{D85B2C33-BF5B-4F44-98F9-BEFBAEA309BF}.Release|x86.ActiveCfg = Release|Win32
 		{D85B2C33-BF5B-4F44-98F9-BEFBAEA309BF}.Release|x86.Build.0 = Release|Win32
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Debug|x64.ActiveCfg = Debug|x64
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Debug|x64.Build.0 = Debug|x64
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Debug|x86.Build.0 = Debug|Win32
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Release|x64.ActiveCfg = Release|x64
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Release|x64.Build.0 = Release|x64
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Release|x86.ActiveCfg = Release|Win32
+		{7B18209E-DC67-4963-A168-BF31F9099539}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
