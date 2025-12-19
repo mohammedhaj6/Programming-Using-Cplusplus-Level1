@@ -4,11 +4,11 @@ int main()
 {
 
     string name;
-    int age;
+    short age;
     string city;
     string country;
-    float monthSalary;
-    int yearSalary;
+    float monthSalary;  
+    float yearSalary;
     char gender;
     bool isMarried;
 
@@ -22,9 +22,9 @@ int main()
     cin >> country;
     cout << "Enter Your Monthly Salary : \n";
     cin >> monthSalary;
-    cout << "Enter Your Gender : \n";
+    cout << "Enter Your Gender >> please enter \"m or f\" ? : \n";
     cin >> gender;
-    cout << "Are you married ? : \n";
+    cout << "Are you married >> please enter \"1 or 0\" ? : \n";
     cin >> isMarried;
     cout << "\n\n\n";
 
@@ -41,7 +41,7 @@ int main()
     cout << "***********************************" << "\n\n";
     cout << "-----------------------------------------------------" << "\n" << "\n";
 
-    int x , y , z ;
+    short x , y , z ;
 
     cout << "Enter the number 1 :\n";
     cin >> x;

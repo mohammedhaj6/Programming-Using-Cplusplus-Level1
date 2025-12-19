@@ -6,11 +6,11 @@ int main()
 {
     
     string name = "mohammed alhaj mohammed";
-    int age = 23;
+    short age = 23;
     string city = "gaza";
     string country = "palestine";
-    int monthSalary = 5000;
-    int yearSalary = monthSalary * 12;
+    float monthSalary = 5000;
+    float yearSalary = monthSalary * 12;
     char gender = 'M';
     bool married = 1;
 
@@ -28,8 +28,8 @@ int main()
 
     cout << "-----------------------------------------------------" << "\n" << "\n";
 
-    int x = 20, y = 30, z = 10;
-    int total = x + y + z;
+    short x = 20, y = 30, z = 10;
+    short total = x + y + z;
 
     cout << x << "+"<<"\n";
     cout << y << "+" << "\n";
