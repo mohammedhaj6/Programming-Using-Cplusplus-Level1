@@ -196,7 +196,7 @@ int main()
    int numOfSeconds,secoundsPerDay=24*60*60,secoundsPerHour = 60*60,secoundsPerMinute=60;
    cout << "Enter your seconds ?\n";
    cin >> numOfSeconds;
-   
+  
    int numberOfDays = floor(numOfSeconds / secoundsPerDay);
    int remainder = numOfSeconds % secoundsPerDay;
 
