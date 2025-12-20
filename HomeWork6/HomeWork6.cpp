@@ -132,6 +132,8 @@ int main()
    cout << "\n";
    cout << num << "^4 >>> " << num * num * num*num;
    cout << "\n";*/
+
+
    //problem 35
 
    
@@ -157,7 +159,49 @@ int main()
    cout << "\n";
    cout << "Total dollars >>> " << (pennies + nickels + dimes + quaters + dollars)/dollar<<"Dollars";*/
 
+   //problem 39
+
+   /*short totalBill,cashPaid;
+   cout << "Enter your Total Bill ? \n";
+   cin >> totalBill;
+   cout << "Enter your Cash Paid ? \n";
+   cin >> cashPaid;
+   
+   cout << "\n";
+   cout <<"The Paid Back is : "<<cashPaid- totalBill;*/
+
+   //problem 40
+      
+   
+  
+   /*short billValue;
+   cout << "Enter your Bill Value ? \n";
+   cin >> billValue;
+   cout << "\n\n";
+   cout << "The Total Bill is : " << (billValue * 1.1) * 1.16;*/
+
+   //problem 42
+
+  /* short days,hours,minutes,seconds;
+   cout << "Enter your days ? \n";
+   cin >> days;
+   cout << "Enter your hours ? \n";
+   cin >> hours;
+   cout << "Enter your minutes ? \n";
+   cin >> minutes;
+   cout << "Enter your seconds ? \n";
+   cin >> seconds;
+   cout << "\n\n";
+   cout << "The task duration in seconds : " << (days * 24 * 60 * 60) + (hours * 60 * 60) + (minutes * 60) + seconds<<" Seconds";*/
+   int numOfSeconds,secoundsPerDay=24*60*60,secoundsPerHour = 60*60,secoundsPerMinute=60;
+   cout << "Enter your seconds ?\n";
+   cin >> numOfSeconds;
+   
+   int numberOfDays = floor(numOfSeconds / secoundsPerDay);
+   int remainder = numOfSeconds % secoundsPerDay;
 
 
+
+        
 }
 
