@@ -93,15 +93,69 @@ int main()
 	/*short A;
 	const double PI = 3.14;
 
-	cout << "Enter your diameter \n";
+	cout << "Enter  Side length of the square  \n";
 	cin >> A;
 
 	cout << "\n";
-	cout << "The rectangle area >>> " << PI*(A*A)/4;*/
+	cout << "The circle area >>> " << PI*(A*A)/4;*/
 
 	//problem 21
+	/*short L;
+	const double PI = 3.14;
 
+	cout << "Enter your circumference \n";
+	cin >> L;
 
+	cout << "\n";
+	cout << "The circle area >>> " << (L*L)/(4*PI);*/
+	//problem 22
+  /* short a,b;
+  const double PI = 3.14;
+
+   cout << "Enter a : \n";
+  cin >> a;
+  cout << "Enter b : \n";
+  cin >> b;
+
+  cout << "\n";
+   cout << "The circle area >>> " << PI*((b*b)/4)*(2*a-b)/(2*a+b)*/;
+   //problem 31
+
+   /*short num;
+   cout << "Enter your number ? \n";
+   cin >> num;
+;
+   cout << "\n";
+   cout << num<<"^2 >>> " << num * num;
+   cout << "\n";
+   cout << num << "^3 >>> " << num*num*num;
+   cout << "\n";
+   cout << num << "^4 >>> " << num * num * num*num;
+   cout << "\n";*/
+   //problem 35
+
+   
+ /*  short penny=1, nickel=5, dime=10, quater=25, dollar=100;
+   short pennies, nickels, dimes, quaters, dollars ;
+   cout << "Enter your pennies \n";
+   cin >> pennies;
+   pennies = penny * pennies;
+   cout << "Enter your nickels \n";
+   cin >> nickels;
+   nickels = nickel * nickels;
+   cout << "Enter your dimes \n";
+   cin >> dimes;
+   dimes = dime * dimes;
+   cout << "Enter your quaters \n";
+   cin >> quaters;
+   quaters = quater * quaters;
+   cout << "Enter your dollars \n";
+   cin >> dollars;
+   dollars = dollar * dollars;
+   cout << "\n";
+   cout << "Total pennies >>> " << pennies+nickels+dimes+quaters+dollars<<"Pennies";
+   cout << "\n";
+   cout << "Total dollars >>> " << (pennies + nickels + dimes + quaters + dollars)/dollar<<"Dollars";*/
 
 
 
