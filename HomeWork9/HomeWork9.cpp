@@ -69,10 +69,73 @@ int main()
 
 	// problem 23
 
+	/*short a, b,c;
+	const double PI = 3.14;
+
+	cout << "Enter a : \n";
+	cin >> a;
+	cout << "Enter b : \n";
+	cin >> b;
+	cout << "Enter a : \n";
+	cin >> c;
+	
+	short p = (a + b + c) / 2;
 
 
+    cout << "\n";
+	cout << "The circle area >>> " <<round(PI*(pow((a*b*c)/(4*sqrt(p*(p-a)*(p-b)*(p-c))),2))) ;*/
 
+	//problem 31
+       
+	/*short num;
+	cout << "Enter your number ? \n";
+	cin >> num;
+	;
+	cout << "\n";
+	cout << num << "^2 >>> " << pow(num,2);
+	cout << "\n";
+	cout << num << "^3 >>> " << pow(num, 3);
+	cout << "\n";
+	cout << num << "^4 >>> " << pow(num, 4);
+	cout << "\n";*/
 
+	//problem 32
+	/*short num,M;
+	cout << "Enter your number ? \n";
+	cin >> num;
+	cout << "Enter your power ? \n";
+	cin >> M;
+	cout << "\n";
+	cout << num <<"^" <<M << " >>> " << pow(num, M);*/
+    //problem 42
+      
+//short days, hours, minutes, seconds;
+//cout << "Enter your days ? \n";
+//cin >> days;
+//cout << "Enter your hours ? \n";
+//cin >> hours;
+//cout << "Enter your minutes ? \n";
+//cin >> minutes;
+//cout << "Enter your seconds ? \n";
+//cin >> seconds;
+//cout << "\n\n";
+//cout << "The task duration in seconds : " << round((days * 24 * 60 * 60) + (hours * 60 * 60) + (minutes * 60) + seconds) << " Seconds";
+
+ //problem 43
+
+  /* int numOfSeconds,secoundsPerDay=24*60*60,secoundsPerHour = 60*60,secoundsPerMinute=60;
+   cout << "Enter your seconds ?\n";
+   cin >> numOfSeconds;
+
+   int numOfDays = floor(numOfSeconds / secoundsPerDay);
+   int remainder = numOfSeconds % secoundsPerDay;
+   int numOfHours = floor(remainder / secoundsPerHour);
+   remainder = remainder % secoundsPerHour;
+   int numOfMinutes = floor(remainder / secoundsPerMinute);
+   remainder = remainder % secoundsPerMinute;
+   numOfSeconds = remainder;
+   cout << "\n";
+   cout << numOfDays << " : " << numOfHours << " : " << numOfMinutes<<" : "<<numOfSeconds;*/
 
 }
 
