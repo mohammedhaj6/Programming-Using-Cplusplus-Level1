@@ -8,45 +8,45 @@ struct stInfo {
     string phone;
 };
 
-void readInfo(stInfo &info) {
-	cout << "Please Enter Your First Name ? \n";
-	cin >> info.firstName;
-	cout << "Please Enter Your Last Name ? \n";
-	cin >> info.lastName;
-	cout << "Please Enter Your Age ? \n";
-	cin >> info.age;
-	cout << "Please Enter Your Phone ? \n";
-	cin >> info.phone;
-	cout << "\n";
+void readInfo(stInfo info[100], int& length) {
+    cout << "How many persons do you want to enter ? 1 to 100 ?\n";
+    cin >> length;
+
+    for (int i = 0; i < length; i++) {
+        cout << "Please Enter First Name for person " << i + 1 << "\n";
+        cin >> info[i].firstName;
+
+        cout << "Please Enter Last Name for person " << i + 1 << "\n";
+        cin >> info[i].lastName;
+
+        cout << "Please Enter Age for person " << i + 1 << "\n";
+        cin >> info[i].age;
+
+        cout << "Please Enter Phone for person " << i + 1 << "\n";
+        cin >> info[i].phone;
+
+        cout << "\n";
+    }
 }
 
-void printInfo(stInfo& info) {
-	cout << "**********************************\n";
-	cout << "FirstName: " << info.firstName <<"\n";
-	cout << "LastName: " << info.lastName << "\n";
-	cout << "Age: " << info.age << "\n";
-	cout << "Phone: " << info.phone << "\n";
-	cout << "**********************************\n";
-	
+void printInfo(stInfo info[100], int length) {
+    for (int i = 0; i < length; i++) {
+        cout << "**********************************\n";
+        cout << "Person " << i + 1 << "\n";
+        cout << "First Name: " << info[i].firstName << "\n";
+        cout << "Last Name: " << info[i].lastName << "\n";
+        cout << "Age: " << info[i].age << "\n";
+        cout << "Phone: " << info[i].phone << "\n";
+        cout << "**********************************\n";
+    }
 }
 
-void readPersonsInfo(stInfo persons[2]) {
-	readInfo(persons[0]);
-	readInfo(persons[1]);
+int main() {
+    stInfo persons[100];
+    int length = 0;
 
-}
+    readInfo(persons, length);
+    printInfo(persons, length);
 
-void printPersonsInfo(stInfo persons[2]) {
-	printInfo(persons[0]);
-	
-	printInfo(persons[1]);
-}
-
-int main()
-{
-	stInfo persons[2];
-	readPersonsInfo(persons);
-	printPersonsInfo(persons);
-
-
+    return 0;
 }
